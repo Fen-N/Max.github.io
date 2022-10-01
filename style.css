@@ -1,15 +1,23 @@
-body {
-  background-color: #aaffff;
+body{
+    background-color: cadetblue;
+    color:rgb(47, 7, 141);
 }
-ul {
-  list-style-image: url("abc.png");
+h1{
+    color:pink;
+    font-size: 50px;
 }
-.yellow {
-  color: yellow;
+h2{
+    color:pink;
+    font-size: 50px;
 }
-.white {
-  color: white;
+h3{
+    color:pink;
+    font-size: 50px;
 }
-.pink {
-  color: pink;
+ol.Part3>li{
+    list-style-type: circle;
+}
+ol.Part3innerol{
+    list-style-type: upper-roman;
+    color: black;
 }
