@@ -1,6 +1,6 @@
 body{
-    background-color: cadetblue;
-    color:rgb(151, 70, 16);
+    background-color: rgb(0, 0, 0);
+    color:rgb(253, 237, 15);
 }
 h1{
     color:pink;
@@ -19,5 +19,6 @@ ol.Part3>li{
 }
 ol.Part3innerol{
     list-style-type: upper-roman;
-    color: black;
+    color: rgb(79, 243, 64);
 }
+p{font-size: 35px;}
