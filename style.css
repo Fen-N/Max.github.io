@@ -32,3 +32,13 @@ p {
   margin: 0 auto;
   width: 50%;
 }
+.fake {
+  background-color: green;
+  height: 200px;
+}
+.container {
+  background-color: yellow;
+}
+img {
+  position: absolute;
+}
