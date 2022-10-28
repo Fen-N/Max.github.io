@@ -1,44 +1,38 @@
-body {
-  background-color: rgb(0, 0, 0);
-  color: rgb(253, 237, 15);
-}
-#Part1 {
-  padding: 10px 5px 9px 5px;
-  border: 10px dashed yellow;
-  margin: 20px;
-}
-h2 {
-  color: pink;
-  font-size: 50px;
-}
-h3 {
-  color: pink;
-  font-size: 50px;
-}
-ol.Part3 > li {
-  list-style-type: circle;
-}
-ol.Part3innerol {
-  list-style-type: upper-roman;
-  color: rgb(79, 243, 64);
-}
-p {
-  font-size: 35px;
-}
-.div1 {
-  color: hotpink;
-  padding: 9px 5px 9px 5px;
-  border: 5px dotted gold;
+.container {
+  background-color: blue;
+  width: 500px;
   margin: 0 auto;
-  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.fake {
-  background-color: green;
+.item {
+  background-color: aqua;
+  color: blue;
+  font-size: 50px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  height: 100px;
+}
+.item2 {
+  background-color: aqua;
+  color: blue;
+  font-size: 50px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
   height: 200px;
 }
-.container {
-  background-color: yellow;
-}
-img {
-  position: absolute;
+.item3 {
+  background-color: aqua;
+  color: blue;
+  font-size: 50px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  height: 100px;
 }
