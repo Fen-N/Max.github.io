@@ -1,12 +1,11 @@
 .container {
   background-color: blue;
-  width: 500px;
-  margin: 0 auto;
-  padding: 10px;
+  width: auto;
+  padding: 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
 }
 .item {
@@ -14,9 +13,7 @@
   color: blue;
   font-size: 50px;
   width: 100px;
-  margin: 10px;
   text-align: center;
-  height: 100px;
 }
 .item2 {
   background-color: aqua;
@@ -25,7 +22,6 @@
   width: 100px;
   margin: 10px;
   text-align: center;
-  height: 200px;
 }
 .item3 {
   background-color: aqua;
@@ -34,5 +30,19 @@
   width: 100px;
   margin: 10px;
   text-align: center;
-  height: 100px;
+}
+.item4 {
+  background-color: aqua;
+  color: blue;
+  font-size: 50px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+.title {
+  background-color: aqua;
+  color: blue;
+  font-size: 50px;
+  width: 200px;
+  text-align: center;
 }
