@@ -46,3 +46,10 @@
   width: 200px;
   text-align: center;
 }
+.btn {
+  font-size: 50px;
+  cursor: pointer; /* 更改游標類型。 */
+}
+.invisible {
+  display: none;
+}
