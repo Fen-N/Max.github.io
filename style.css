@@ -1,55 +1,49 @@
 .container {
-  background-color: blue;
-  width: auto;
-  padding: 30px;
+  background-color: rgb(184, 23, 206);
+  padding: 80px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
-.item {
-  background-color: aqua;
-  color: blue;
-  font-size: 50px;
-  width: 100px;
-  text-align: center;
-}
-.item2 {
-  background-color: aqua;
-  color: blue;
-  font-size: 50px;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-}
-.item3 {
-  background-color: aqua;
-  color: blue;
-  font-size: 50px;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-}
-.item4 {
-  background-color: aqua;
-  color: blue;
-  font-size: 50px;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-}
 .title {
-  background-color: aqua;
-  color: blue;
+  background-color: rgb(55, 24, 129);
+  color: rgb(255, 230, 0);
   font-size: 50px;
   width: 200px;
   text-align: center;
 }
-.btn {
+.title2{
+  background-color: rgb(55, 24, 129);
+  color: rgb(255, 230, 0);
+  padding: 5px;
+  font-size: 30px;
+  border-style: ridge;
+  position:absolute;
+  margin-top: 130px;
+}
+h1 {
   font-size: 50px;
+}
+ol.myself{
+  font-size: 70px;
+}
+ol.myself > li{
+  font-size: 50px;
+}
+.btn {
+  border-style: solid;
+  border-width: 10px;
+  font-size: 100px;
+  text-align: center;
   cursor: pointer; /* 更改游標類型。 */
 }
 .invisible {
   display: none;
+}
+#foo{
+  margin: 20px;
+  font-size: 100px;
+  text-align: center;
 }
