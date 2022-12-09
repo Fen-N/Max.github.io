@@ -11,26 +11,29 @@
   background-color: rgb(55, 24, 129);
   color: rgb(255, 230, 0);
   font-size: 50px;
-  width: 200px;
+  width: 600px;
   text-align: center;
+  border-style: ridge;
 }
-.title2{
+.title2 {
   background-color: rgb(55, 24, 129);
   color: rgb(255, 230, 0);
   padding: 5px;
   font-size: 30px;
   border-style: ridge;
-  position:absolute;
+  position: absolute;
   margin-top: 130px;
 }
 h1 {
   font-size: 50px;
+  text-align: center;
 }
-ol.myself{
+ul.myself {
   font-size: 70px;
 }
-ol.myself > li{
+ul.myself > li {
   font-size: 50px;
+  list-style-type: none;
 }
 .btn {
   border-style: solid;
@@ -42,8 +45,11 @@ ol.myself > li{
 .invisible {
   display: none;
 }
-#foo{
+#foo {
   margin: 20px;
   font-size: 100px;
   text-align: center;
+}
+body {
+  background-color: deeppink;
 }
