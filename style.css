@@ -53,3 +53,7 @@ ul.myself > li {
 body {
   background-color: deeppink;
 }
+p {
+  font-size: 50px;
+  text-align: center;
+}
